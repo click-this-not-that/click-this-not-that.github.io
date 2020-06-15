@@ -10,6 +10,11 @@ video3: not-a-link
         <title> {{ page.title }}</title>
     </head>
     <body>
-        <h1> {{ "Hello World" | downcase }} </h1>
+        <h1> {{ "Click This, Not That" | downcase }} </h1>
+        <video width="320" height="240" controls>
+            <source src="userstudy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>This video demonstrates a participant going through the first two parts of the study, testing tripwires and creating a log in ritual.</p>
     </body>
 </html>
