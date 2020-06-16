@@ -1,26 +1,65 @@
----
-title: Click This, Not That
-video1: not-a-link
-video2: not-a-link
-video3: not-a-link
----
-
 <html>
-    <head>
-        <title> {{ page.title }}</title>
-    </head>
-    <body>
-        <h1> Click This, Not That</h1>
-        <video width="320" height="240" controls>
-            <source src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/userstudy.mp4?raw=true" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <p>This video demonstrates a participant going through the first two parts of the study, testing tripwires and creating a log in ritual.</p>
-        <video width="320" height="240" controls>
-            <source src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/tripwire_action_redacted_trimmed.mp4?raw=true" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <p>This video shows how tripwires work in action. A policy for this user causes them to be logged out after touching two tripwires. After logging in again and touching a third, another policy is triggered which blocks this device.</p>
-    
-    </body>
+
+<head>
+    <title> Click This, Not That</title>
+</head>
+
+<body>
+    <h1> Click This, Not That</h1>
+    <video width="320" height="160" controls>
+        <source
+            src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/ritual_creation_redacted.mp4?raw=true"
+            type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p><b>Video 1, Ritual creation.</b> This video demonstrates how a user
+    creates a ritual using our browser extension interface. They start the ritual
+    recording, then click on Family, Social, Contacts, Mail. They finish by
+    clicking save in the overlay box.</p>
+    <video width="320" height="160" controls>
+        <source
+            src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/tripwire_creation_redacted.mp4?raw=true"
+            type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p><b>Video 2, Tripwire creation.</b> This video demonstrates how a user
+    creates a tripwire using our browser extension interface. In this example
+    they create a new tripwire folder called work by selecting the neighboring
+    folder, duplicating the element, and modifying the content and path. They
+    preview and save this tripwire which then persists after refreshing. While
+    the UI is enabled it highlights existing tripwires in blue and they can be removed by
+    clicking on them. </p>
+
+    <video width="320" height="160" controls>
+        <source
+            src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/ritual_action_redacted.mp4?raw=true"
+            type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p><b>Video 3, Rituals in action.</b> This video shows how rituals work in
+    action. With the ritual created in <b>Video 2</b>, the user is expected to
+    click on Family, Social, Contacts, Mail. After the first login, the ritual
+    is not completed and the user is logged out. After logging back in and
+    completing the ritual, they can continue as normal.</p>
+    <video width="320" height="160" controls>
+        <source
+            src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/tripwire_action_redacted_trimmed.mp4?raw=true"
+            type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p><b>Video 4, Tripwires in action.</b> This video shows how tripwires work in action. A policy for this user causes them to be logged
+        out after touching
+        two tripwires. After logging in again and touching a third, another policy is triggered which blocks this
+        device.</p>
+
+    <video width="320" height="160" controls>
+        <source
+            src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/userstudy.mp4?raw=true"
+            type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p><b>Video 5, User study.</b> This video demonstrates a participant going through the first two parts of the study, testing
+        tripwires and creating a login ritual.</p>
+</body>
+
 </html>
