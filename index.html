@@ -1,65 +1,113 @@
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <title> Click This, Not That</title>
 </head>
 
 <body>
-    <h1> Click This, Not That</h1>
-    <video width="320" height="160" controls>
-        <source
-            src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/ritual_creation_redacted.mp4?raw=true"
-            type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <p><b>Video 1, Ritual creation.</b> This video demonstrates how a user
-    creates a ritual using our browser extension interface. They start the ritual
-    recording, then click on Family, Social, Contacts, Mail. They finish by
-    clicking save in the overlay box.</p>
-    <video width="320" height="160" controls>
-        <source
-            src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/tripwire_creation_redacted.mp4?raw=true"
-            type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <p><b>Video 2, Tripwire creation.</b> This video demonstrates how a user
-    creates a tripwire using our browser extension interface. In this example
-    they create a new tripwire folder called work by selecting the neighboring
-    folder, duplicating the element, and modifying the content and path. They
-    preview and save this tripwire which then persists after refreshing. While
-    the UI is enabled it highlights existing tripwires in blue and they can be removed by
-    clicking on them. </p>
+    <div class="container">
 
-    <video width="320" height="160" controls>
-        <source
-            src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/ritual_action_redacted.mp4?raw=true"
-            type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <p><b>Video 3, Rituals in action.</b> This video shows how rituals work in
-    action. With the ritual created in <b>Video 2</b>, the user is expected to
-    click on Family, Social, Contacts, Mail. After the first login, the ritual
-    is not completed and the user is logged out. After logging back in and
-    completing the ritual, they can continue as normal.</p>
-    <video width="320" height="160" controls>
-        <source
-            src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/tripwire_action_redacted_trimmed.mp4?raw=true"
-            type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <p><b>Video 4, Tripwires in action.</b> This video shows how tripwires work in action. A policy for this user causes them to be logged
-        out after touching
-        two tripwires. After logging in again and touching a third, another policy is triggered which blocks this
-        device.</p>
+        <h1> Click This, Not That</h1>
 
-    <video width="320" height="160" controls>
-        <source
-            src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/userstudy.mp4?raw=true"
-            type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <p><b>Video 5, User study.</b> This video demonstrates a participant going through the first two parts of the study, testing
-        tripwires and creating a login ritual.</p>
+        <figure class="figure">
+            <video class="embed-responsive embed-responsive-16by9" controls>
+                <source class="figure-img img-fluid rounded"
+                    src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/ritual_creation_redacted.mp4?raw=true"
+                    type="video/mp4">
+
+                Your browser does not support the video tag.
+            </video>
+            <figcaption class="figure-caption text-justify"><b>Video 1.</b> Ritual creation.<br> This video demonstrates
+                how a user
+                creates a ritual using our browser extension interface. They start the ritual
+                recording, then click on Family, Social, Contacts, Mail. They finish by
+                clicking save in the overlay box.</figcaption>
+        </figure>
+
+        <figure class="figure"><video class="embed-responsive embed-responsive-16by9" controls>
+                <source
+                    src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/tripwire_creation_redacted.mp4?raw=true"
+                    type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption class="figure-caption  text-justify"><b>Video 2.</b> Tripwire creation.<br>This video demonstrates how a user
+                creates a tripwire using our browser extension interface. In this example
+                they create a new tripwire folder called work by selecting the neighboring
+                folder, duplicating the element, and modifying the content and path. They
+                preview and save this tripwire which then persists after refreshing. While
+                the UI is enabled it highlights existing tripwires in blue and they can be removed by
+                clicking on them.</figcaption>
+        </figure>
+
+        <figure class="figure">
+            <video class="embed-responsive embed-responsive-16by9" controls>
+                <source class="figure-img img-fluid rounded"
+                    src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/ritual_action_redacted.mp4?raw=true"
+                    type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption class="figure-caption text-justify"><b>Video 3.</b> Rituals in action.<br> This video shows how
+                rituals work in
+                action. With the ritual created in <b>Video 2</b>, the user is expected to
+                click on Family, Social, Contacts, Mail. After the first login, the ritual
+                is not completed and the user is logged out. After logging back in and
+                completing the ritual, they can continue as normal.</figcaption>
+        </figure>
+
+        <figure class="figure">
+            <video class="embed-responsive embed-responsive-16by9" controls>
+                <source class="figure-img img-fluid rounded"
+                    src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/tripwire_action_redacted_trimmed.mp4?raw=true"
+                    type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption class="figure-caption text-justify"><b>Video 4</b>. Tripwires in action.<br> This video shows how
+                tripwires work in action. A policy for this user
+                causes them to be logged
+                out after touching
+                two tripwires. After logging in again and touching a third, another policy is triggered which blocks
+                this
+                device.</figcaption>
+        </figure>
+
+        <figure class="figure">
+            <video class="embed-responsive embed-responsive-16by9" controls>
+                <source class="figure-img img-fluid rounded"
+                    src="https://github.com/click-this-not-that/click-this-not-that.github.io/blob/master/userstudy.mp4?raw=true"
+                    type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption class="figure-caption text-justify"><b>Video 5.</b> User study.<br> This video demonstrates a
+                participant going through the first two parts of the
+                study, testing
+                tripwires and creating a login ritual.</figcaption>
+        </figure>
+
+
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
